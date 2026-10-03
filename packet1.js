@@ -6,8 +6,8 @@
 //   map      optional map picture (see app.js)
 //   order    true = keep the choices in this order (for True/False, east/west)
 (function () {
-  var MAP = { src: 'img/fc-map.svg', w: 1000, h: 648 };
-  var CLOSEUP = { src: 'img/fc-closeup.svg', w: 420, h: 541 };
+  var MAP = { src: 'fc-map.svg', w: 1000, h: 648 };
+  var CLOSEUP = { src: 'fc-closeup.svg', w: 420, h: 541 };
 
   // number on the map: [name, x, y, hint]
   var FEATURES = {

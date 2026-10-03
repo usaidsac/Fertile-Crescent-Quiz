@@ -2,7 +2,7 @@
 // Same question format as packet1.js. The first choice is the right answer
 // unless "answer" gives a different number (0 = first choice).
 (function () {
-  var BASE = { src: 'img/mesopotamia-map.png', w: 941, h: 713, view: [250, 60, 691, 520] };
+  var BASE = { src: 'mesopotamia-map.png', w: 941, h: 713, view: [250, 60, 691, 520] };
   var BAB = [556, 345];
   var LABELS = {
     taurus: { x: 392, y: 112, text: '▲▲▲ Taurus Mountains ▲▲▲' },
@@ -52,8 +52,8 @@
     { q: 'The laws were written in ___, the writing of Mesopotamia.', choices: ['cuneiform', 'English', 'Arabic', 'pictures of animals'], explain: 'The laws were written in cuneiform. Cuneiform is made with wedge shapes.' },
     { q: 'Why did the stele stand where people could see it?', choices: ['so everyone could know the rules', 'so people could climb it', 'to hold back the river', 'to show where to buy food'], explain: 'The stele stood where people could see it, so everyone could know the rules.' },
     { q: 'How tall is the stele of Hammurabi?', choices: ['more than 7 feet, taller than a grown man', 'as small as a book', 'as tall as a child', 'as tall as a mountain'], explain: 'The stele is more than 7 feet tall. That is taller than a grown man.' },
-    { q: 'Look at the top of the stele. Who sits on the right?', choices: ['Shamash, the god of justice', 'a farmer', 'a merchant', 'a widow'], img: { src: 'img/stele.webp', alt: 'Top of the stele of Hammurabi' }, explain: 'Hammurabi stands on the left. Shamash, the god of justice, sits on the right. The picture told people the gods wanted fair laws.' },
-    { q: 'Look at this clay tablet. What are the wedge-shaped marks called?', choices: ['cuneiform', 'a map', 'a dam', 'a stele'], img: { src: 'img/tablet.jpg', alt: 'Clay tablet with cuneiform writing' }, explain: 'The wedge-shaped marks are cuneiform. Scribes copied the laws onto clay tablets like this one.' },
+    { q: 'Look at the top of the stele. Who sits on the right?', choices: ['Shamash, the god of justice', 'a farmer', 'a merchant', 'a widow'], img: { src: 'stele.webp', alt: 'Top of the stele of Hammurabi' }, explain: 'Hammurabi stands on the left. Shamash, the god of justice, sits on the right. The picture told people the gods wanted fair laws.' },
+    { q: 'Look at this clay tablet. What are the wedge-shaped marks called?', choices: ['cuneiform', 'a map', 'a dam', 'a stele'], img: { src: 'tablet.jpg', alt: 'Clay tablet with cuneiform writing' }, explain: 'The wedge-shaped marks are cuneiform. Scribes copied the laws onto clay tablets like this one.' },
     { q: 'Where is the stele of Hammurabi today?', choices: ['in a museum in Paris, France (the Louvre)', 'in the Persian Gulf', 'in a school in Babylon', 'it was lost forever'], explain: 'Today the stele is in the Louvre, a museum in Paris, France.' },
     { q: 'River water → farming → extra food → ___ → conflicts → written laws. What goes in the blank?', choices: ['cities', 'deserts', 'mountains', 'boats'], explain: 'Extra food let people build cities. Cities had conflicts, so they needed written laws.' },
     { q: 'Why do many of Hammurabi’s laws talk about water, farms, crops, and boats?', choices: ['Life in Mesopotamia depended on the rivers.', 'Hammurabi lived in the desert.', 'There were no rivers in Mesopotamia.', 'People did not eat crops.'], explain: 'Geography shaped the laws. People depended on the rivers for water, farming, and trade.' }
